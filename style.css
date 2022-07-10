@@ -1,0 +1,156 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+main{
+  min-height: 100vh;
+}
+
+h1{
+  font-family: 'Rajdhani', sans-serif;
+}
+
+ul{
+  list-style:none;
+}
+
+li{
+  text-transform:uppercase;
+  color:#107aa8;
+  
+}
+
+.Sarahs-list {
+  display: flex;
+  justify-content: center;
+  background-color: #346D9E ;
+/*   add some padding-top and padding-bottom on the next 2 line, between 10 and 20 px should be enough, play around with this until you are happy with the appearance */
+padding-top: 16px;
+  
+}
+
+.Sarah-list-items{
+  font-size: 15px; 
+  color: #66AEEB;
+  margin-left: 20px;
+  margin: 10px;
+  text-transform: uppercase;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+.Sarah-list-items > a{
+  color:white;
+}
+
+.Sarah-list-items:hover{
+  background-color: #0b3c1e ;
+}
+
+.hero-image{
+  width:100vw;
+}
+
+/* ADD STYLES FOR THE SECTION CONTAINING ALL THE CARDS BELOW THIS GREEN COMMENT:
+  
+  the class name should be "card-container" (already added to your index.html)
+  Styles to add are:  
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 4em 0;
+
+  The above styles should make cards appear side-by-side on your screen 
+*/
+
+
+/* CARD STYLES */
+.card {
+  display:flex;
+  flex-direction: row;
+  border-radius: 10px;
+  max-width: 45%;
+  max-height: 350px;
+  margin-top: 2em;
+  margin-bottom: 1em;
+  margin-left: 0;  
+  margin-right: 0;
+  font-family: "Rhajdhani", sans-serif;
+  background-color: white;
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.16);
+  /* To stop the text spilling out over the end of 
+  the card add a style overflow: scroll;  on the 
+  next line.*/
+  
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-heading,
+.card-body {
+  line-height: 1.5;
+  padding: 0 1em;
+  margin-bottom: 0.8em;
+}
+
+.card-img {
+  max-height: auto;
+  width: 45%;
+  padding-bottom: 2em;
+}  
+.card-img {
+  width: 45%;
+  height: auto;
+}
+
+footer {
+  background-color: gray;
+  height: 200px;
+}
+
+.footer-list{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 100px;
+  list-style: none;
+}
+
+.footer-list-items > a{
+  line-height:2.2;
+  text-decoration:none;
+  font-size: 1em;
+  font-family: sans-serif;
+  color:#fefefe;
+  text-transform: uppercase;
+}
+.flex-container-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.card-img-medium {
+  max-height: auto;
+  width: 50%;
+  padding-bottom: 2em;
+}
+
+.padding-right-left {
+  padding-left: 8rem;
+  padding-right: 8rem;
+  width: 50%;
+}
+
+.padding-top-bottom {
+  padding-top: 8rem;
+  padding-bottom 8rem;
+}
